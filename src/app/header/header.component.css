@@ -1,0 +1,20 @@
+.sidebar-super-container{
+    
+    min-height: 100vh;
+    width: 400px;
+    border-right: 1px solid black;
+}
+.tab-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 48px;
+    width: 100%;
+    background-color: blue;
+}
+.tab-elements{
+    color: white;
+    font-size: 15px;
+
+}
