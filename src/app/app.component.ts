@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-test-2';
+  value:number=15;
+
+  onClick(event:any){
+    
+    alert(this.value)
+
+  }
 }
